@@ -1,0 +1,21 @@
+/* Register */
+div{
+    margin-left: 40%;
+    margin-top: 50px;
+    width: 250px;
+    height: 350px;
+    border: solid black;
+
+    text-align: center;
+    background-color: rgb(170, 209, 170);
+    border-radius: 15px;
+}
+div>input{
+    margin-bottom: 10px;
+}
+div>button{
+    border-radius: 5px;
+    width: 130px;
+    height: 28px;
+    background-color: aquamarine;
+}
