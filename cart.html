@@ -27,11 +27,22 @@
         }
 
     </style>
-    <!-- <script>
-        window.onload = function{
-    
+    <script>
+        window.onload = function (){
+        var isLoggedIn = JSON.parse(localStorage.getItem("isUserLoggedIn"));
+        console.log(isLoggedIn)
+        if(isLoggedIn === true){
+            alert("welcome Home !")
+            const allProducts = JSON.parse(localStorage.getItem("allProducts"));
+           
+           for(var)
+            console.log(allProducts,"allProducts")
+        } else{
+            alert("Login First !")
+            window.location.href = "./login.html"
         }
-    </script> -->
+        }
+    </script>
 </head>
 <body>
     <h1>Carts</h1>
